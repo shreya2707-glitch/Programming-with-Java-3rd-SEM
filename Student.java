@@ -1,21 +1,22 @@
-class Student {
-    int id;
-    String name;
+package student;
 
-    // Default Constructor
-    Student() {
-        id = 181;   
-        name = "Shreya Panda";
+public class Student {
+    private int studentId;
+    private String name;
+    private String course;
+
+    // Constructor
+    public Student(int studentId, String name, String course) {
+        this.studentId = studentId;
+        this.name = name;
+        this.course = course;
     }
 
-    void display() {
-        System.out.println("Default Constructor");
-        System.out.println("ID: " + id);
-        System.out.println("Name: " + name);
-    }
-
-    public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.display();
+    // Public method to display student details
+    public void displayStudentInfo() {
+        System.out.println("=== Student Information ===");
+        System.out.println("Student ID : " + studentId);
+        System.out.println("Name       : " + name);
+        System.out.println("Course     : " + course);
     }
 }
