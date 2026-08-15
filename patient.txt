@@ -1,0 +1,3 @@
+ID: 201 | Name: Rajesh  | Age: 34 | Diagnosis: Acute Bronchitis
+ID: 202 | Name: Priya     | Age: 52 | Diagnosis: Hypertension
+ID: 203 | Name: Amit     | Age: 28 | Diagnosis: Type 1 Diabetes

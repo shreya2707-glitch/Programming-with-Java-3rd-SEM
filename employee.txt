@@ -1,0 +1,3 @@
+ID: 181 | Name: Shreya Panda | Dept: CSE | Salary: $75000
+ID: 126 | Name: Novera | Dept: CSE | Salary: $65000
+ID: 163 | Name: Jenice Sahoo | Dept: CSE | Salary: $80000
